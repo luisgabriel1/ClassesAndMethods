@@ -1,14 +1,15 @@
 package Udemy;
 
 public class Challenge1 {
-    // Só pode mexer dentro do metodo main para corrigir o erro.
+    // You can only move inside of method main for correct the error.
     int a = 3;
     public static void main (String[] arg) {
-        // Poderia simplesmente colocar um static na var a e isso já resolveria.
+        
+        // Cold just put a static at var a the this is resolution.
 
-        // Minha resolução do erro foi fazer um construtor b que chama a class Challenge1.
-        // Depois passei uma var x que chama o arg da class.
-        // No caso a Class recebe o aregumento de a = 3 e b recebe o construtor da class e x recebe class.arg = b.a
+        // My resolution of error went to do a construct b who calls the class Challenge1.
+        // Then I passed a var x that calls the class's arg.
+        // In this case Class receives the argument of a = 3 and b receives the class constructor and x receives class.arg = b.a
         Challenge1 b = new Challenge1();
         int x = b.a;
         System.out.println(x);
